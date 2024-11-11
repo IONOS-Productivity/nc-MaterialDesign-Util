@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const encoding = "utf8";
 const folder = `${__dirname}/../`;
-const packageName = 'svg'
+const packageName = 'svg/dist'
 
 const getVersion = (overridePackageName) => {
   const pName = overridePackageName || packageName;
